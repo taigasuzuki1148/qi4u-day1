@@ -400,6 +400,7 @@ layout: center
 ---
 
 # Organizing Team
+Supervised by Prof. Masayuki Ohzeki and Assoc. Prof. Rumiko Honda
 
 <div class="team">
   <div class="card">
@@ -543,6 +544,7 @@ h1{ text-align:center; letter-spacing:-.02em; }
   .team{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 </style>
+
 ---
 transition: slide-left
 ---
