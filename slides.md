@@ -64,7 +64,6 @@ layout: center
   flex-wrap:wrap;
   gap:.55rem;
   justify-content:center;
-  width: min(980px, 92vw);
   margin-left:auto;
   margin-right:auto;
 }
@@ -105,7 +104,6 @@ h2{ opacity:.9; margin-top:.35rem; }
   flex-wrap:wrap;
   gap:.6rem;
   justify-content:center;
-  width: min(860px, 92vw);
   margin-left:auto;
   margin-right:auto;
 }
@@ -145,7 +143,6 @@ h2{ opacity:.9; margin-top:.35rem; }
   flex-wrap:wrap;
   gap:.6rem;
   justify-content:center;
-  width: min(900px, 92vw);
   margin-left:auto;
   margin-right:auto;
 }
@@ -193,7 +190,6 @@ h2{ opacity:.9; margin-top:.35rem; }
   grid-template-columns: 1fr auto 1fr;
   gap: 1rem;
   align-items: stretch;
-  width: min(980px, 92vw);
   margin-left:auto;
   margin-right:auto;
 }
