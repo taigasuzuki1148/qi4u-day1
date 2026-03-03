@@ -1850,7 +1850,7 @@ transition: fade-out
       </div>
       <div class="flex items-center gap-2">
         <div class="w-3 h-[1px] bg-white rotate-45"></div>
-        <span class="text-[11px] text-gray-300"><b>Angle:</b> Phase measured clockwise from 12 o'clock</span>
+        <span class="text-[11px] text-gray-300"><b>Angle:</b> Phase measured counter-clockwise from 12 o'clock</span>
       </div>
     </div>
   </div>
