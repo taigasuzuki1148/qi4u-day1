@@ -2131,7 +2131,7 @@ transition: fade-out
   </p>
 
   <div class="flex flex-col items-center justify-center mb-3">
-    <img src="/images/Unknown.png" 
+    <img src="/images/download-2.png" 
          alt="Quantum Circuit Diagram" 
          class="rounded-xl shadow-lg h-64 object-contain border border-gray-700 bg-white p-4" />
   </div>
@@ -2733,32 +2733,40 @@ Visualizing quantum gate operations with circle notation
 ---
 transition: fade-out
 ---
-# Programming Exercise 1
-Explaining what Quantum Computing is.
+# Hands-on Part 1
 
-Quantum Programming $\approx$ Creating Quantum Circuits = Applying Matrices.
+<div class="flex flex-col items-center justify-center h-[85%] gap-8 px-8 mt-2 relative z-10">
 
-Why $\approx$?
-- Optimization for efficient operation of the created circuit.
-- Necessary operations to embed the created circuit into real quantum hardware.
-- And so on...
+  <div class="bg-[#111111]/80 backdrop-blur-md border border-cyan-500/50 rounded-3xl p-10 shadow-[0_0_40px_rgba(6,182,212,0.3)] max-w-4xl text-center relative overflow-hidden group hover:border-cyan-400 transition-colors duration-500">
+    <div class="absolute -top-20 -left-20 w-40 h-40 bg-cyan-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-20 -right-20 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl"></div>
 
-Additional operations are required. We will see how these actually work in the code.
+  <p class="text-2xl text-gray-100 font-bold leading-relaxed relative z-10 tracking-wide">
+      As your first step into quantum programming, <br>
+      <span class="text-cyan-400 font-extrabold text-3xl leading-loose">let's use a quantum computer simulator</span> <br>
+      to create the 1-qubit quantum circuit you've just learned!
+    </p>
+  </div>
 
-Here we will explain:
-- Installing packages in Python and gate operations for a single qubit.
+  <div class="relative z-50">
+    <a href="https://colab.research.google.com/drive/10KYTS6JggsNETG3F9Nv_-UQ1sxV7wMes?usp=sharing"
+       target="_blank" rel="noopener"
+       @click.stop
+       class="group relative inline-flex items-center gap-4 px-10 py-4 rounded-full bg-gradient-to-r from-[#4285F4] to-[#1A6DFF] hover:from-[#357ae8] hover:to-[#0055ff] text-white font-bold text-xl shadow-[0_0_20px_rgba(66,133,244,0.5)] hover:shadow-[0_0_35px_rgba(66,133,244,0.8)] transition-all duration-300 hover:-translate-y-1">
+      
+  <div class="absolute inset-0 rounded-full border border-white/20 group-hover:border-white/40 transition-colors"></div>
+      
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden class="relative z-10 drop-shadow-md">
+        <path d="M12 2L22 7v10l-10 5-10-5V7z" fill="white" opacity="0.15"/>
+        <path d="M12 2l10 5-10 5-10-5z" fill="white"/>
+        <path d="M2 7l10 5 10-5" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M12 12v10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="relative z-10 tracking-widest uppercase">Open in Colab</span>
+    </a>
+  </div>
 
-<div class="flex justify-center mt-8">
-  <a href="https://colab.research.google.com/drive/1VvDoc-MyGpXBViZbSH2sfs8x3AsK0ood?usp=sharing"
-     target="_blank" rel="noopener"
-     class="inline-flex items-center gap-3 px-4 py-2 rounded-lg bg-[#4285F4] hover:bg-[#357ae8] text-white font-medium shadow-md">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-      <path d="M12 2L22 7v10l-10 5-10-5V7z" fill="white" opacity="0.12"/>
-      <path d="M12 2l10 5-10 5-10-5z" fill="white"/>
-    </svg>
-    Open in Colab
-  </a>
- </div>
+</div>
 
 ---
 transition: none
@@ -2769,7 +2777,7 @@ transition: none
 <div class="mt-1 px-8">
 
   <div class="flex flex-col items-center justify-center mb-3">
-    <img src="/images/Unknown.png" 
+    <img src="/images/download-2.png" 
          alt="Quantum Circuit Diagram" 
          class="rounded-xl shadow-lg h-64 object-contain border border-gray-700 bg-white p-4" />
   </div>
@@ -2788,7 +2796,7 @@ transition: fade-out
 <div class="mt-1 px-8">
 
   <div class="flex flex-col items-center justify-center mb-3">
-    <img src="/images/Unknown-1.jpg" 
+    <img src="/images/Unknown-3.jpg" 
          alt="Quantum Circuit Diagram" 
          class="rounded-xl shadow-lg h-64 object-contain border border-gray-700 bg-white p-4" />
   </div>
@@ -2929,22 +2937,37 @@ Understanding operations via Circle Notation.
 ---
 transition: fade-out
 ---
+# Hands-on Part 2
 
-# Programming Exercise 2
-Hands-on exercise using the provided materials.
+<div class="flex flex-col items-center justify-center h-[85%] gap-8 px-8 mt-2 relative z-10">
 
-Based on the knowledge we've learned so far, we will learn about 2-qubit operations.
+  <div class="bg-[#111111]/80 backdrop-blur-md border border-cyan-500/50 rounded-3xl p-10 shadow-[0_0_40px_rgba(6,182,212,0.3)] max-w-4xl text-center relative overflow-hidden group hover:border-cyan-400 transition-colors duration-500">
+    <div class="absolute -top-20 -left-20 w-40 h-40 bg-cyan-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-20 -right-20 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl"></div>
 
-<div class="flex justify-center mt-8">
-  <a href="https://colab.research.google.com/drive/1VvDoc-MyGpXBViZbSH2sfs8x3AsK0ood?usp=sharing"
-     target="_blank" rel="noopener"
-     class="inline-flex items-center gap-3 px-4 py-2 rounded-lg bg-[#4285F4] hover:bg-[#357ae8] text-white font-medium shadow-md">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-      <path d="M12 2L22 7v10l-10 5-10-5V7z" fill="white" opacity="0.12"/>
-      <path d="M12 2l10 5-10 5-10-5z" fill="white"/>
-    </svg>
-    Open in Colab
-  </a>
+  <p class="text-3xl text-gray-100 font-bold leading-relaxed relative z-10 tracking-wide">
+      Let's build <br> <span class="text-cyan-400 font-extrabold text-4xl leading-loose">2-qubit quantum circuits</span> <br>using the Qiskit simulator!
+    </p>
+  </div>
+
+  <div class="relative z-50">
+    <a href="https://colab.research.google.com/drive/10KYTS6JggsNETG3F9Nv_-UQ1sxV7wMes?usp=sharing"
+       target="_blank" rel="noopener"
+       @click.stop
+       class="group relative inline-flex items-center gap-4 px-10 py-4 rounded-full bg-gradient-to-r from-[#4285F4] to-[#1A6DFF] hover:from-[#357ae8] hover:to-[#0055ff] text-white font-bold text-xl shadow-[0_0_20px_rgba(66,133,244,0.5)] hover:shadow-[0_0_35px_rgba(66,133,244,0.8)] transition-all duration-300 hover:-translate-y-1">
+      
+  <div class="absolute inset-0 rounded-full border border-white/20 group-hover:border-white/40 transition-colors"></div>
+      
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden class="relative z-10 drop-shadow-md">
+        <path d="M12 2L22 7v10l-10 5-10-5V7z" fill="white" opacity="0.15"/>
+        <path d="M12 2l10 5-10 5-10-5z" fill="white"/>
+        <path d="M2 7l10 5 10-5" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M12 12v10" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="relative z-10 tracking-widest uppercase">Open in Colab</span>
+    </a>
+  </div>
+
 </div>
 
 ---
@@ -2957,7 +2980,7 @@ transition: fade-out
   <div class="p-5 bg-gray-800/50 border border-gray-600 rounded-xl shadow-lg border-t-4 border-t-blue-500">
     <h3 class="text-xl font-bold text-blue-400 mb-3 mt-0">Computing with Quantum means:</h3>
     <div class="text-lg text-gray-100 mt-4">
-      <span class="font-bold border-b-2 border-blue-400 pb-1">Applying gates to encoded qubits.</span>
+      <span class="font-bold border-blue-400 pb-1">Feeding qubits into a quantum circuit made up of quantum gates.</span>
     </div>
   </div>
 
@@ -2973,7 +2996,7 @@ transition: fade-out
 <div class="mt-10 p-5 bg-gradient-to-r from-blue-900/50 to-purple-900/50 border border-blue-500/50 rounded-lg text-center shadow-[0_0_20px_rgba(59,130,246,0.3)]">
   
   <div class="text-xl text-white font-bold tracking-wide">
-    On Day 2, we will use what we learned today to explain actual <span class="text-yellow-400 text-2xl">Quantum Algorithms!!</span>
+    On Day 2, we will use what we learned today to explain actual <br><span class="text-yellow-400 text-2xl">Quantum Algorithms!!</span>
   </div>
   
   <div class="text-base text-gray-300 mt-2">
