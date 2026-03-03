@@ -284,7 +284,7 @@ transition: slide-left
         height="100%"
         allowfullscreen
         allow="autoplay"
-        src="/graph-builder2.html">
+        src="graph-builder2.html">
     </iframe>
 </div>
 
