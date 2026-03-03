@@ -2724,7 +2724,7 @@ Visualizing quantum gate operations with circle notation
         height="100%"
         allowfullscreen
         allow="autoplay"
-        src="/OneQubit.html">
+        src="OneQubit.html">
     </iframe>
 </div>
 
